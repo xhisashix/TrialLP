@@ -16,15 +16,14 @@
   Our(our='Our Works' :left='true')
 </template>
 <script>
-
-import HLTitle from '~/components/ui/HLTitle'
-import Our from '~/components/ui/Our'
-import Button from '~/components/ui/Button'
+import HLTitle from '~/components/degin/ui/HLTitle'
+import Our from '~/components/degin/ui/Our'
+import Button from '~/components/degin/ui/Button'
 export default {
-  components:{
+  components: {
     HLTitle,
     Our,
-    Button
+    Button,
   },
 }
 </script>

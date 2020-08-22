@@ -16,8 +16,8 @@
 </template>
 <script>
 
-import HLTitle from '~/components/ui/HLTitle'
-import Our from '~/components/ui/Our'
+import HLTitle from '~/components/degin/ui/HLTitle'
+import Our from '~/components/degin/ui/Our'
 export default {
   components:{
     HLTitle,

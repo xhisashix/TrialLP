@@ -1,7 +1,12 @@
 <template lang="pug">
-  h1 別のページに飛んでね
+.top
+  Header
+  Concept
+  Work
+  Service
+  Contact
 </template>
 <script>
-export default {}
+
 </script>
 <style lang="stylus"></style>
