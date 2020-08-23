@@ -7,7 +7,9 @@
   Airassurance
   Airrelief
   Airclearing
-  Airffoter
+  Airpracticesample
+  Airabout
+  Airfoter
 </template>
 
 <script>
