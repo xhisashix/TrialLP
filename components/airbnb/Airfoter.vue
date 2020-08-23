@@ -48,40 +48,34 @@ export default {}
 </script>
 
 <style lang="stylus">
-.airfooter {
-  width: 100%;
-  background: #ecf0f1;
-  margin-top: 50px;
-  padding: 20px;
+.airfooter
+  width 100%
+  background #ecf0f1
+  margin-top 50px
+  padding 20px
 
-  ul {
-    width: 90%;
-    margin: 0 auto;
-    list-style: none;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 12px;
+  ul
+    width 90%
+    margin 0 auto
+    list-style none
+    margin-top 40px
+    display flex
+    justify-content space-between
+    font-size 12px
 
-    li {
-      p {
-        margin-top: 10px;
-      }
-    }
-  }
+    li
+      p
+        margin-top 10px
 
-  .conpany {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 30px;
-    border-top: 1px solid #000;
+  .conpany
+    width 90%
+    margin 0 auto
+    margin-top 30px
+    border-top 1px solid #000
 
-    .content {
-      height: 15vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  }
-}
+    .content
+      height 15vh
+      display flex
+      flex-direction column
+      justify-content center
 </style>

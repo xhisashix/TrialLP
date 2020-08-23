@@ -13,51 +13,47 @@ export default {}
 </script>
 
 <style lang="stylus">
-.airassurance {
-  display: flex;
-  width: 70%;
-  margin: 0 auto;
-  margin-top: 80px;
+.airassurance
+  display flex
+  width 70%
+  margin 0 auto
+  margin-top 80px
 
-  .content {
-    h1 {
-      font-size: 48px;
-      color: #f1c40f;
-    }
+  .content
+    h1
+      font-size 48px
+      color #f1c40f
 
-    h2 {
-      margin-top: 10px;
-      font-size: 30px;
-      font-weight: normal;
-      line-height: 1.2;
-    }
+    h2
+      margin-top 10px
+      font-size 30px
+      font-weight normal
+      line-height 1.2
 
-    p {
-      margin-top: 10px;
-      font-size: 18px;
-      color: #95a5a6;
-    }
 
-    a {
-      text-align: center;
-      border: 2px solid #000;
-      padding: 10px;
-      border-radius: 5px;
-      box-sizing: content-box;
-      margin-top: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 200px;
-      text-decoration: none;
-      color: #000;
-    }
-  }
+    p
+      margin-top 10px
+      font-size 18px
+      color #95a5a6
 
-  img {
-    width: 500px;
-    height: 500px;
-    margin-left: 50px;
-  }
-}
+
+    a
+      text-align center
+      border 2px solid #000
+      padding 10px
+      border-radius 5px
+      box-sizing content-box
+      margin-top 20px
+      display flex
+      align-items center
+      justify-content center
+      width 200px
+      text-decoration none
+      color #000
+
+
+  img
+    width 500px
+    height 500px
+    margin-left 50px
 </style>

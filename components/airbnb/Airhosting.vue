@@ -35,34 +35,25 @@ export default {
 }
 </script>
 <style lang="stylus">
-.airhosting {
-  ul {
+.airhosting
+  ul
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
     list-style: none;
     width: 70%;
     line-height: 1.5;
-
-    li {
+    li
       margin-left: 50px;
-
-      h2 {
+      h2
         font-size: 28px;
-      }
-    }
-  }
 
-  .checklink {
+  .checklink
     width: 70%;
     margin: 0 auto;
     margin-top: 20px;
-
-    a {
+    a
       display: flex;
       justify-content: flex-end;
       margin-right: 15px;
-    }
-  }
-}
 </style>

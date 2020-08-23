@@ -28,60 +28,46 @@ export default {
 </script>
 
 <style lang="stylus">
-.airrelief {
-  width: 70%;
-  margin: 0 auto;
+.airrelief
+  width 70%
+  margin 0 auto
 
-  .content {
-    display: flex;
+  .content
+    display flex
 
-    .content-text {
-      flex: 1;
+    .content-text
+      flex 1
 
-      a {
-        color: #16a085;
-        display: flex;
-        margin-top: 30px;
-      }
-    }
-
-    .content-list {
-      flex: 1;
-      margin-left: 80px;
-      display: flex;
-      align-items: center;
-
-      ul {
-        list-style-type: none;
-        margin: 0 auto;
-
-        li {
-          position: relative;
-          margin-bottom: 20px;
-
-          &::after {
-            content: '';
-            display: block;
-            position: absolute;
-            top: 0.3em;
-            left: -1.7em;
-            width: 20px;
-            height: 10px;
-            border-left: 2px solid #16a085;
-            border-bottom: 2px solid #16a085;
-            transform: rotate(-45deg);
-          }
-        }
-      }
-    }
-  }
-
-  img {
-    display: flex;
-    margin: 0 auto;
-    margin-top: 30px;
-    width: 1000px;
-    height: 600px;
-  }
-}
+      a
+        color #16a085
+        display flex
+        margin-top 30px
+    .content-list
+      flex 1
+      margin-left 80px
+      display flex
+      align-items center
+      ul
+        list-style-type none
+        margin 0 auto
+        li
+          position relative
+          margin-bottom 20px
+          &afte
+            content ''
+            display block
+            position absolute
+            top 0.3em
+            left -1.7em
+            width 20px
+            height 10px
+            border-left 2px solid #16a085
+            border-bottom 2px solid #16a085
+            transform rotate(-45deg)
+  img
+    display flex
+    margin 0 auto
+    margin-top 30px
+    width 1000px
+    height 600px
 </style>

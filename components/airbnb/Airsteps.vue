@@ -14,23 +14,20 @@ export default {}
 </script>
 
 <style lang="stylus">
-.airsteps {
-  width: 100%;
+.airsteps
+  width 100%
 
-  ul {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 50px;
-    list-style: none;
+  ul
+    display flex
+    width 80%
+    margin 0 auto
+    margin-top 50px
+    list-style none
 
-    li {
-      margin-left: 50px;
-      width: 45%;
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
-    }
-  }
-}
+    li
+      margin-left 50px
+      width 45%
+      display flex
+      flex-direction column
+      margin 0 auto
 </style>
