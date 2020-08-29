@@ -14,12 +14,15 @@
 export default {}
 </script>
 <style lang="stylus">
-.airabout {
-  .text-box {
-    display: flex;
-
-    .text {
-    }
-  }
-}
+.ariabout
+  .text-box
+    display flex
+    width 70%
+    .text
+      margin-left 60px
+      h3
+        margin-top 20px
+      p
+        margin-top 20px
+        line-height 2
 </style>
