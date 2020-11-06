@@ -12,8 +12,6 @@
         <ul>
           <li v-for="i in fInfo" :key="i.id">
             {{ i }}
-            {{ i.title }}
-            {{ i.id }}
           </li>
         </ul>
       </div>
