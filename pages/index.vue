@@ -5,6 +5,7 @@
       a(href="airbnb") airbnbページへ
       a(href="degin") deginページへ
       a(href="csvtojson") csvtojsonページへ
+      a(href="todo") todoページへ
 </template>
 <script>
 export default {}
