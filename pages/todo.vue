@@ -4,8 +4,9 @@
       My Todos
       <span class="info">({{ remaining.length }}/{{ todos.length }})</span>
     </h1>
+    <input v-model="name" />
     <ul>
-      <li v-for="(todo, index) in todos" :key="index">
+      <li v-for="(todo, index) in fInfo" :key="index">
         <input type="checkbox" v-model="todo.isDone" name="" id="" />
         <span :class="{ done: todo.isDone }">{{ todo.title }}</span>
         <span @click="deleteItem(index)" class="command"> × </span>
@@ -28,6 +29,7 @@ export default {
     return {
       newItem: '',
       todos: [],
+      name: '',
     }
   },
   watch: {
@@ -66,6 +68,11 @@ export default {
     remaining: function () {
       return this.todos.filter(function (todo) {
         return !todo.isDone
+      })
+    },
+    fInfo: function () {
+      return this.todos.filter((e) => {
+        return e.title.indexOf(this.name) != -1
       })
     },
   },
