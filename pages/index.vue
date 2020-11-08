@@ -6,6 +6,7 @@
       a(href="degin") deginページへ
       a(href="csvtojson") csvtojsonページへ
       a(href="todo") todoページへ
+      a(href="element") elementページへ
 </template>
 <script>
 export default {}
