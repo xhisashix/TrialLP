@@ -7,6 +7,7 @@
       a(href="csvtojson") csvtojsonページへ
       a(href="todo") todoページへ
       a(href="element") elementページへ
+      a(href="calendar") calendarページへ
 </template>
 <script>
 export default {}
