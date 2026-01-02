@@ -13,7 +13,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
     "element-ui": "^2.14.0",
-    "nuxt": "^2.13.0"
+    "nuxt": "^3.19.0"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.3",
