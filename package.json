@@ -27,6 +27,6 @@
     "pug-plain-loader": "^1.0.0",
     "stylus": "^0.64.0",
     "stylus-loader": "^4.3.3",
-    "vue-jest": "^0.6.1"
+    "vue-jest": "^3.0.7"
   }
 }
